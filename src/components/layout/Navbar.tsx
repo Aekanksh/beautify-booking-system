@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ScissorsLinear, Calendar, User, Menu, X } from "lucide-react";
+import { Scissors, Calendar, User, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
     <header className="bg-white shadow-sm py-4 px-6">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <ScissorsLinear className="h-6 w-6 text-salon-primary" />
+          <Scissors className="h-6 w-6 text-salon-primary" />
           <span className="text-xl font-serif font-semibold">Beautify</span>
         </div>
         

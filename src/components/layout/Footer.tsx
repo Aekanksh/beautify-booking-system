@@ -1,6 +1,5 @@
-
 import { Link } from "react-router-dom";
-import { ScissorsLinear, Instagram, Facebook, Twitter } from "lucide-react";
+import { Scissors, Instagram, Facebook, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <ScissorsLinear className="h-6 w-6 text-salon-primary" />
+              <Scissors className="h-6 w-6 text-salon-primary" />
               <span className="text-xl font-serif font-semibold">Beautify</span>
             </div>
             <p className="text-salon-tertiary text-sm">
